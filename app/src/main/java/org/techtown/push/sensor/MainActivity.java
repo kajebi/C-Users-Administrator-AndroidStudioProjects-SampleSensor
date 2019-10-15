@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
         for (Sensor sensor : sensors){
             println("#" + index + " : " + sensor.getName());
         }
-    }// 주석 이다.....나어리ㅏ널ㄴㅇㅎㅁㄴㅇㅎasdsadg
+    }// 주석 이다
     public void registerFirstSensor(){
         manager.registerListener(
                 new SensorEventListener() {
